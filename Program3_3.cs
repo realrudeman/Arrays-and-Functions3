@@ -8,10 +8,10 @@ for (int i = 0; i < size; i++)
     arr[i] = rand.NextDouble() * 100;
 }
 
-Console.WriteLine("Массив:");
+Console.WriteLine("Массив: ");
 foreach(double num in arr)
 {
-    Console.Write(num + " ");
+    Console.WriteLine(num + " ");
 }
 Console.WriteLine();
 
